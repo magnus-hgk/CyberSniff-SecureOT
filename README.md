@@ -3,6 +3,7 @@ A sniffing tool POC that sniffs a virtual network
 
 
 ## App Structure
+```
 app   /
       / plc
             /
@@ -33,15 +34,16 @@ app   /
             /
             sniffer.py
             LOG_FILE.jsonl
-
+```
 ## Physical Structure
+```
 Laptop: Server - - - - ⌉
                 wlan0: mTLS
                        |
          | Port 1: Sniffer 
 Switch --| Port 2: Slave Simulation
          | Port 3: PLC Simulation
-         
+```         
 ## Prerequisites
 - Docker
 - Python3 version:
