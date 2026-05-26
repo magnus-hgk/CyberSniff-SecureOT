@@ -40,9 +40,9 @@ app   /
 Laptop: Server - - - - ⌉
                 wlan0: mTLS
                        |
-         | Port 1: Sniffer 
-Switch --| Port 2: Slave Simulation
-         | Port 3: PLC Simulation
+   SPAN      | Port 1: Sniffer 
+Switch - - - | Port 2: Slave Simulation
+   Mirrored  | Port 3: PLC Simulation
 ```         
 ## Prerequisites
 - Docker
